@@ -4,7 +4,7 @@ def not_all_word():
     print(a.capitalize())
 
 def all_word():
-    """смерджена с удалением ветки feature/ask2. Вся информация на ветке develop"""
+    """Переводит с заглавными буквами"""
     print(a.upper())
 
 not_all_word()
