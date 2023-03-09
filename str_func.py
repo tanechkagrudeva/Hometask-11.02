@@ -1,6 +1,11 @@
-def function():
-    a=input("Введите предложение...")
+a=input("Введите предложение...")
+def not_all_word():
+    """Переводит с заглавными буквами"""
+    print(a.capitalize())
+
+def all_word():
+    """Переводит с заглавными буквами"""
     print(a.upper())
 
-
-function()
+not_all_word()
+all_word()
